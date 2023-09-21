@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         YouTube autoliker not subscribe
+// @name         YouTube autoliker with out subscribe
 // @namespace    https://github.com/cofficcc/youtube-auto-liker-not-subscribe
 // @version      1.0.1
-// @description  Auto-like YouTube video
+// @description  Auto-liker YouTube video
 // @author       cofficcc
 // @match        https://www.youtube.com/*
 // @grant        none
