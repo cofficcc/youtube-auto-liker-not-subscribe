@@ -33,7 +33,6 @@
 
 <h3>Что нужно, чтобы работали ссылки через ссылку поиска?</h3>
 
-    
 <ul>
         <li class="mt-4">
             Установите расширение <a href="https://chrome.google.com/webstore/detail/imacros-for-chrome/cplklnmnlbnpmjogncfgfijoopmnlemp">iMacros for Chrome</a>
