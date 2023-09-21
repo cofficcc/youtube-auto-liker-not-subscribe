@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Autolike for YouTube - cofficcc</title>
+    <link rel="stylesheet" href="public/css/bootstrap.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Autolike for Youtube</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Руководство</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Автоматические лайки
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Через ссылки</a>
+                    <a class="dropdown-item" href="search.html">Через поиск</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container mt-4">
+
+    <h3>Что нужно, чтобы работали ссылки через ссылку поиска?</h3>
+
+    <ul>
+        <li class="mt-4">
+            Установите расширение <a href="https://chrome.google.com/webstore/detail/imacros-for-chrome/cplklnmnlbnpmjogncfgfijoopmnlemp">iMacros for Chrome</a>
+        </li>
+        <li class="mt-4">
+            Откройте расширение, откроется такое окно <br><img src="public/images/imm1.png" width="40%" alt="">
+        </li>
+        <li class="mt-4">
+            Далее, откройте вкладку Record, и там Record macro, затем сразу нажимайте кнопку "stop"<br> <img src="public/images/imm2.png" alt="">
+        </li>
+        <li class="mt-4">
+            У вас откроется окно, куда надо будет скопировать код из файла "dist/autolike-search.iim" <br> <img src="public/images/imm3.png" width="40%">
+        </li>
+        <li class="mt-4">
+            У вас появится новый macros в списке <br> <img src="public/images/imm4.png" alt="">
+        </li>
+        <li class="mt-4">
+            Потом можете открывать поиск в ютубе, найти нужную вам тему, и нажать PlayLoop, а не Play, это важно!
+        </li>
+        <li class="mt-4">
+            У вас будет 2 поля, current и max над кнопкой "Play Loop". Current будет означать с какого видео начать, а max - сколько всего видео нужно обработать.
+        </li>
+    </ul>
+
+</div>
+
+</body>
+
+<script src="public/js/jquery.js"></script>
+<script src="public/js/bootstrap.js"></script>
+<script src="public/js/popper.min.js"></script>
+<script src="public/js/app.js"></script>
+
+</html>

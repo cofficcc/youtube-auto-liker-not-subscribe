@@ -1,4 +1,4 @@
-<h1 class="text-center">youtube auto liker</h1>
+<h1 class="text-center">Youtube Auto Liker</h1>
 
 <h3>Как пользоваться?</h3>
 <ul>
@@ -16,6 +16,8 @@
   </li>
 </ul>
 
+<hr>
+
 <h3>Как отключить расширение?</h3>
 
 <ul>
@@ -23,6 +25,9 @@
     В расширении нажать "Dashboard"
   </li>
   <li>
-    Убрать галочку на поле Enable
+    Убрать галочку на поле "Enable"
   </li>
 </ul>
+
+<hr>
+

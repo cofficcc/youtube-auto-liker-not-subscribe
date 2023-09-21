@@ -1,0 +1,9 @@
+TAB T=1
+
+TAG POS={{!LOOP}} TYPE=A ATTR=CLASS:yt-simple-endpoint<SP>style-scope<SP>ytd-video-renderer EXTRACT=HREF
+SET !VAR1 {{!EXTRACT}}
+
+TAB OPEN
+TAB T=2
+URL GOTO={{!VAR1}}
+WAIT SECONDS=2
