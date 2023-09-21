@@ -10,8 +10,6 @@ function start() {
 
     links.forEach((element) => {
         if(RegExp.test(element)){
-            // _blank(element);
-            // console.log(element);
             var a = document.createElement("a");
             a.href = element;
             a.target="_blank";
@@ -19,8 +17,4 @@ function start() {
         }
 
     });
-}
-
-function _blank(link) {
-    window.open(link, '_blank');
 }
