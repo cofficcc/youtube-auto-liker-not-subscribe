@@ -31,3 +31,30 @@
 
 <hr>
 
+<h3>Что нужно, чтобы работали ссылки через ссылку поиска?</h3>
+
+    
+<ul>
+        <li class="mt-4">
+            Установите расширение <a href="https://chrome.google.com/webstore/detail/imacros-for-chrome/cplklnmnlbnpmjogncfgfijoopmnlemp">iMacros for Chrome</a>
+        </li>
+        <li class="mt-4">
+            Откройте расширение, откроется такое окно <br><img src="public/images/imm1.png" width="40%" alt="">
+        </li>
+        <li class="mt-4">
+            Далее, откройте вкладку Record, и там Record macro, затем сразу нажимайте кнопку "stop"<br> <img src="public/images/imm2.png" alt="">
+        </li>
+        <li class="mt-4">
+            У вас откроется окно, куда надо будет скопировать код из файла "dist/autolike-search.iim" <br> <img src="public/images/imm3.png" width="40%">
+        </li>
+        <li class="mt-4">
+            У вас появится новый macros в списке <br> <img src="public/images/imm4.png" alt="">
+        </li>
+        <li class="mt-4">
+            Потом можете открывать поиск в ютубе, найти нужную вам тему, и нажать PlayLoop, а не Play, это важно!
+        </li>
+        <li class="mt-4">
+            У вас будет 2 поля, current и max над кнопкой "Play Loop". Current будет означать с какого видео начать, а max - сколько всего видео нужно обработать.
+        </li>
+    </ul>
+
