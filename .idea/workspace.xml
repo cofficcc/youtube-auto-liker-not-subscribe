@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00aa36d2-06a5-44a5-8969-3680c5dbc58c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/dist/autoliker.user.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/autoliker.user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery-slim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/popper.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,13 +45,15 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/apple/OneDrive/Documents/Projects/youtube-auto-liker-not-subscribe/public/css",
+    "last_opened_file_path": "C:/Users/apple/OneDrive/Documents/Projects/youtube-auto-liker-not-subscribe/public",
     "list.type.of.created.stylesheet": "CSS",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\apple\OneDrive\Documents\Projects\youtube-auto-liker-not-subscribe\public" />
       <recent name="C:\Users\apple\OneDrive\Documents\Projects\youtube-auto-liker-not-subscribe\public\css" />
       <recent name="C:\Users\apple\OneDrive\Documents\Projects\youtube-auto-liker-not-subscribe\public\js" />
     </key>
@@ -60,7 +69,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695283765028</updated>
-      <workItem from="1695283766845" duration="4133000" />
+      <workItem from="1695283766845" duration="8636000" />
     </task>
     <servers />
   </component>
