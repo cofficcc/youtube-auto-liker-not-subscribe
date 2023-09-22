@@ -42,7 +42,7 @@
   </li>
   <li>
     Такой вид допускается(откроется 2 ссылки на youtube и vk):
-    <img src="public/images/links.png">
+    <br><img src="public/images/links.png">
   </li>
   <li>
     Запустить и отдыхать
