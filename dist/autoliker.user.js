@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         YouTube autoliker with out subscribe
+// @name         YouTube autoliker not subscribe
 // @namespace    https://github.com/cofficcc/youtube-auto-liker-not-subscribe
 // @version      1.0.1
-// @description  Auto-liker YouTube video
+// @description  Auto-like YouTube video
 // @author       cofficcc
 // @match        https://www.youtube.com/*
 // @grant        none
@@ -14,6 +14,7 @@
     var watcher = null;
     var likeSelector = '#segmented-like-button button';
     var subscribeSelector = '#subscribe-button button';
+    var dismissible = "video-title";
 
     function getObjectProperty(obj, keyStr) {
         var keys = keyStr.split('.');
@@ -45,7 +46,7 @@
             return true;
         }
 
-    return false;
+        return false;
     }
 
     function isVisible(el) {
@@ -66,4 +67,11 @@
     }
 
     window.addEventListener("yt-navigate-finish", startWatcher, true);
+    window.addEventListener("yt-navigate-finish", openVideo, true)
+
+    function openVideo() {
+        var link = document.getElementById(dismissible).href;
+        console.log('123')
+        location.href = link;
+    }
 })();
