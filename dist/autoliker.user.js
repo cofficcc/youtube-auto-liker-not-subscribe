@@ -43,6 +43,11 @@
 
         if (likeBtn && !isLiked()) {
             likeBtn.click();
+            document.addEventListener ('keydown', function (event){
+    console.log (event);
+}); 
+var evt = new KeyboardEvent('keydown', {'keyCode':32, 'which':32});
+document.dispatchEvent(evt);
             return true;
         }
 
