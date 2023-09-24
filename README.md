@@ -9,7 +9,7 @@
     В расширении нажать "Create a new script"
   </li>
   <li>
-    В открывшееся окно вставить код из файла "dist/autoliker.user.js"
+    В открывшееся окно вставить код из файла "dist/autoliker.user.js"(открывайте с помощью блокнота)
   </li>
   <li>
     Открыть любое видео на <a href="https://youtube.com">youtube</a> и лайк сразу будет поставлен
