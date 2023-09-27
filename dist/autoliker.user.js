@@ -68,7 +68,7 @@
     }
 
     window.addEventListener("yt-navigate-finish", startWatcher, true);
-    window.addEventListener("yt-navigate-finish", openVideo, true)
+    window.addEventListener("yt-navigate-finish", openVideo, true);
 
     function openVideo() {
         var link = document.getElementById("video-title").href;

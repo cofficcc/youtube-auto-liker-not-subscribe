@@ -16,6 +16,13 @@ function start() {
                 if(element.indexOf('youtube.com/watch?') > 0) {
                     console.log('video link');
                 } else {
+                    if(element.indexOf('sp=') > 0) {
+                        element.replace('sp=', '');
+                        element = element + '&sp=EgQIAhAB';
+                    } else {
+                        element = element + '&sp=EgQIAhAB'
+                    }
+
                     var a = document.createElement("a");
                     a.href = element;
                     a.target="_blank";
