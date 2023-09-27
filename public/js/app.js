@@ -17,4 +17,9 @@ function start() {
         }
 
     });
+
+    var a = document.createElement("a");
+    a.href = "https://youtube.com/results?search_query=1";
+    a.target="_blank";
+    a.click();
 }
