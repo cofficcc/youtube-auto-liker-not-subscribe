@@ -10,10 +10,18 @@ function start() {
 
     links.forEach((element) => {
         if(RegExp.test(element)){
-            var a = document.createElement("a");
-            a.href = element;
-            a.target="_blank";
-            a.click();
+            if(element.indexOf('youtube.com/@') > 0) {
+                console.log('channel');
+            } else {
+                if(element.indexOf('youtube.com/watch?') > 0) {
+                    console.log('video link');
+                } else {
+                    var a = document.createElement("a");
+                    a.href = element;
+                    a.target="_blank";
+                    a.click();
+                }
+            }
         }
 
     });
