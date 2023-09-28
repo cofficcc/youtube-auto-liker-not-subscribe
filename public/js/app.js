@@ -52,9 +52,6 @@ function start() {
                         a.click();
                         links_opened.push(element)
                     }
-
-                    console.log("https://youtube.com/results?search_query=" + element + '&sp=EgQIAhAB');
-
                 }
             }
         }
